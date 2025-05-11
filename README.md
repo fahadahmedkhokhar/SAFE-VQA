@@ -18,8 +18,8 @@ The code uses **Python 3.8**.
 #### Create a Conda virtual environment:
 
 ```bash
-conda create --name FCC python=3.8
-conda activate FCC
+conda create --name SAFE-VQA python=3.8
+conda activate SAFE-VQA
 ```
 
 #### Clone the project and install requirements:
@@ -27,29 +27,7 @@ conda activate FCC
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/fahadahmedkhokhar/FCC.git]
-```
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-3. Run Image Classifier with FCCs:
-```bash
-python main.py 
-```
-4. Run Tabular Classifier with FCCs:
-```bash
-python tabular_main.py
-```
-
-4. Run Updated FCCs (RB, VT, WVT and STK):
-```bash
-python updated_FCC.py
-```
-## Compute the Results
-For computing the Metrices:
-```bash
-python Results/compute_matrix.py
+git clone [https://github.com/fahadahmedkhokhar/SAFE-VQA.git]
 ```
 
 ## License
